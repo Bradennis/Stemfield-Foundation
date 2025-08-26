@@ -1,0 +1,109 @@
+.get-involved-wrapper {
+  padding: 3rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.involve-section {
+  margin-bottom: 4rem;
+  background-color: #e6f0ff; /* light blue background */
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.involve-section h2 {
+  font-size: 2rem;
+  color: #004080;
+  margin-bottom: 1rem;
+}
+
+.involve-section p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+/* Form Styling */
+.involve-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 500px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.involve-form input,
+.involve-form textarea,
+.involve-form select {
+  padding: 0.8rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.involve-form textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.involve-form button {
+  background-color: #007acc;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: fit-content;
+  align-self: center;
+  min-width: 180px;
+}
+
+.involve-form button:hover {
+  background-color: #005fa3;
+}
+
+/* Donation buttons section */
+.donation-options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.donation-options button {
+  background-color: #004080;
+  color: #fff;
+  padding: 0.8rem 1.2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  min-width: 200px;
+}
+
+.donation-options button:hover {
+  background-color: #0059b3;
+}
+
+/* Responsive layout */
+@media (max-width: 600px) {
+  .involve-form {
+    padding: 0 0.5rem;
+  }
+
+  .involve-form button {
+    width: 100%;
+  }
+
+  .donation-options button {
+    width: 100%;
+  }
+}

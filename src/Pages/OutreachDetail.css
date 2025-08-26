@@ -1,0 +1,60 @@
+.outreach-detail {
+  padding: 4rem 1rem;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+.outreach-detail .container {
+  max-width: 1100px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 2.5rem 2rem;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+.outreach-detail h2 {
+  font-size: 2rem;
+  color: #00264d;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-weight: 700;
+}
+
+.main-image {
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+}
+
+.outreach-detail p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #333;
+  text-align: justify;
+}
+
+.main-image {
+  transition: transform 0.4s ease;
+}
+.main-image:hover {
+  transform: scale(1.02);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .outreach-detail {
+    padding: 2rem 1rem;
+  }
+
+  .outreach-detail h2 {
+    font-size: 1.6rem;
+  }
+
+  .outreach-detail p {
+    font-size: 1rem;
+  }
+}
