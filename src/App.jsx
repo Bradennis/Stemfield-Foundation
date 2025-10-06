@@ -17,7 +17,7 @@ import TeamProfile from "./Pages/TeamProfile";
 import OutreachDetail from "./Pages/OutreachDetail";
 import Programs from "./Pages/Programs";
 import Resources from "./Pages/Resources";
-import GetInvolve from "./Pages/Getinvolved";
+import GetInvolved from "./Pages/GetInvolved";
 import Contact from "./Pages/Contact";
 
 function App() {
