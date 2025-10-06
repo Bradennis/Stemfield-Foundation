@@ -15,7 +15,7 @@ import {
 import About from "./Pages/About";
 import TeamProfile from "./Pages/TeamProfile";
 import OutreachDetail from "./Pages/OutreachDetail";
-import ProgramsPage from "./Pages/programs";
+import Programs from "./Pages/Programs";
 import Resources from "./Pages/Resources";
 import GetInvolved from "./Pages/Getinvolved";
 import Contact from "./Pages/Contact";
